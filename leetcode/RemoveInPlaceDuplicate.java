@@ -9,9 +9,9 @@ public class RemoveInPlaceDuplicate {
                 if (nums[i] != nums[j]) {
                     i++;
                     if (swap) {
-                        int temp = nums[i];
+                     //   int temp = nums[i];
                         nums[i] = nums[j];
-                        nums[j] = temp;
+                        //nums[j] = temp;
                         // swap = false;
                     }
                     j++;
